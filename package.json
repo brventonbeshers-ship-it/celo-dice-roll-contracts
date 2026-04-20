@@ -1,0 +1,25 @@
+{
+  "name": "celo-dice-roll-contracts",
+  "version": "1.0.0",
+  "description": "Solidity smart contracts for the Dice Roll dApp on Celo",
+  "scripts": {
+    "compile": "hardhat compile",
+    "test": "hardhat test",
+    "deploy": "hardhat run scripts/deploy.js --network celo"
+  },
+  "keywords": [
+    "celo",
+    "solidity",
+    "dice-roll",
+    "smart-contracts",
+    "blockchain",
+    "dapp",
+    "web3"
+  ],
+  "author": "brventonbeshers-ship-it",
+  "license": "MIT",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^4.0.0",
+    "hardhat": "^2.22.0"
+  }
+}
